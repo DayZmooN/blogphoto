@@ -1,0 +1,65 @@
+@import "./reset.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#layout {
+  width: 100%;
+  margin: auto;
+}
+#layout .top__layout {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+}
+#layout .top__layout .logo--search {
+  display: flex;
+  justify-content: space-between;
+}
+#layout #container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, auto));
+  justify-content: center;
+  gap: 10px;
+}
+#layout .card {
+  width: 270px;
+}
+#layout .text-area {
+  width: 100%;
+  resize: none;
+  border: none;
+  overflow: hidden;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+#layout .text-area:hover {
+  border: 0.21px solid black;
+}
+#layout .title {
+  width: 100%;
+}
+#layout #modal-card {
+  display: flex;
+  width: 100%;
+}
+#layout #modal-card img {
+  width: 100%;
+  max-width: 80%;
+}
+#layout #modal-card .modal-footer {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#layout #modal-card .modal-footer .para {
+  color: #fff;
+  font-size: 1rem;
+}
+#layout #modal-card .modal-footer .text-area {
+  height: 100%;
+}/*# sourceMappingURL=style.css.map */
